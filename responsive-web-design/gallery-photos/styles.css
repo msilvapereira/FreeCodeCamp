@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #F5F6F7;
+}
+
+.gallery, img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover; /*diz a imagem que ela deve preencher o container img enquanto mantém a proporção, resultando em um corte para o ajuste.*/
+  border-radius: 10px;
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #FFF;
+  border-bottom: 4px solid #fdb347;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row; /*(padrão): eixo horizontal com os itens flex items da esquerda para a direita*/
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 16px; /*define as lacunas (gaps), também conhecidas como calhas, entre as linhas e as colunas*/
+}
+
+/*O pseudoelemento ::after cria um elemento que é o último filho do elemento selecionado. Você pode usá-lo para adicionar um elemento vazio após a última imagem. Se você der a esse elemento a mesma width das imagens, ele empurrará a última imagem para a esquerda quando a galeria estiver em um layout de duas colunas.*/
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
