@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="https://i.redd.it/rxezjyf4ojx41.png">
+
+  <title>Python Documentation</title>
+</head>
+<body>
+  <nav id="navbar"> 
+    <header>Python documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#What_is_Python">What is Python</a></li>
+        <li><a class="nav-link" href="#What_is_Python_used_for">What is Python used for</a></li>
+        <li><a class="nav-link" href="#Hello_World">Hello World</a></li>
+        <li><a class="nav-link" href="#Python_Lines_and_Identation">Python Lines and Identation</a></li>
+        <li><a class="nav-link" href="#Creating_Python_Variables">Creating Python Variables</a></li>
+        <li><a class="nav-link" href="#Data_types">Data types</a></li>
+        <li><a class="nav-link" href="#Functions">Functions</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header class="nav-header">Introduction</header>
+        <article>
+          <p>Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python's elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.</p>
+
+          <p>The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python web site, and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation.</p>
+        </article>
+    </section>
+
+    <section class="main-section" id="What_is_Python">
+      <header class="nav-header">What is Python</header>
+        <article>
+          <p>Python is a very popular general-purpose interpreted, interactive, object-oriented, and high-level programming language. Python is dynamically-typed and garbage-collected programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL).</p>
+        </article>
+    </section>
+
+    <section class="main-section" id="What_is_Python_used_for">
+      <header class="nav-header">What is Python used for</header>
+        <article>
+          <p>Python is commonly used for developing websites and software, task automation, data analysis, and data visualization. Since it's relatively easy to learn, Python has been adopted by many non-programmers such as accountants and scientists, for a variety of everyday tasks, like organizing finances.</p>
+          <p>“Writing programs is a very creative and rewarding activity,” says University of Michigan and Coursera instructor Charles R Severance in his book Python for Everybody. “You can write programs for many reasons, ranging from making your living to solving a difficult data analysis problem to having fun to helping someone else solve a problem.”</p>
+          <p>What can you do with python? Some things include:</p>
+            <ul>
+              <li>Data analysis and machine learning</li>
+              <li>Web development</li>
+              <li>Automation or scripting</li>
+              <li>Software testing and prototyping</li>
+              <li>Everyday tasks</li>
+            </ul>
+      </article>
+    </section>
+
+    <section class="main-section" id="Hello_World">
+      <header class="nav-header">Hello World</header>
+        <article>
+          <p>Python is a very simple language, and has a very straightforward syntax. It encourages programmers to program without boilerplate (prepared) code. The simplest directive in Python is the "print" directive - it simply prints out a line (and also includes a newline, unlike in C).</p>
+
+          <p>There are two major Python versions, Python 2 and Python 3. Python 2 and 3 are quite different. This tutorial uses Python 3, because it more semantically correct and supports newer features.</p>
+
+          <p>For example, one difference between Python 2 and 3 is the print statement. In Python 2, the "print" statement is not a function, and therefore it is invoked without parentheses. However, in Python 3, it is a function, and must be invoked with parentheses.</p>
+
+          <p>To print a string in Python 3, just write:</p>
+
+            <code># This is my first Python program.
+              # This will print 'Hello, World!' as the output
+              
+              print ("Hello, World!");</code>     
+        </article>
+    </section>
+
+  <section class="main-section" id="Python_Lines_and_Identation">
+    <header class="nav-header">Python Lines and Identation</header>
+      <article>
+        <p>Python programming provides no braces to indicate blocks of code for class and function definitions or flow control. Blocks of code are denoted by line indentation, which is rigidly enforced.</p>
+
+        <p>The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount. For example:</p>
+
+        <code>if True:
+            print ("True")
+         else:
+            print ("False")
+        </code>
+        <p>However, the following block generates an error:</p>
+            
+        <code>if True:
+            print ("Answer")
+            print ("True")
+            else:
+            print ("Answer")
+            print ("False")
+        </code>
+        <p>Thus, in Python all the continuous lines indented with same number of spaces would form a block. The following example has various statement blocks</p>
+        <blockquote>
+          <q>Do not try to understand the logic at this point of time. Just make sure you understood various blocks even if they are without braces.</q>
+        </blockquote>
+      </article>
+  </section>
+
+    <section class="main-section" id="Creating_Python_Variables">
+      <header class="nav-header">Creating Python Variables</header>
+        <article>
+          <p>Python variables do not need explicit declaration to reserve memory space or you can say to create a variable. A Python variable is created automatically when you assign a value to it. The equal sign (=) is used to assign values to variables.</p>
+          <p>The operand to the left of the = operator is the name of the variable and the operand to the right of the = operator is the value stored in the variable. For example:</p>
+
+          <code>counter = 100          # Creates an integer variable
+            miles   = 1000.0       # Creates a floating point variable
+            name    = "Zara Ali"   # Creates a string variable</code>
+
+          <header>Printing Python Variables</header>
+          <p>Once we create a Python variable and assign a value to it, we can print it using print() function. Following is the extension of previous example and shows how to print different variables in Python:</p>
+          <code>counter = 100          # Creates an integer variable
+            miles   = 1000.0       # Creates a floating point variable
+            name    = "Zara Ali"   # Creates a string variable
+            
+            print (counter)
+            print (miles)
+            print (name)</code>
+            <p>Here, 100, 1000.0 and "Zara Ali" are the values assigned to counter, miles, and name variables, respectively. When running the above Python program, this produces the following result</p>
+            <code>100
+              1000.0
+              Zara Ali
+            </code>
+      </article>
+    </section>
+
+    <section class="main-section" id="Data_types">
+      <header class="nav-header">Data types</header>
+      <article>
+        <p>Python Data Types are used to define the type of a variable. It defines what type of data we are going to store in a variable. The data stored in memory can be of many types. For example, a person's age is stored as a numeric value and his or her address is stored as alphanumeric characters.</p>
+        <p>Python has various built-in data types which we will discuss with in this tutorial:</p>
+        <ul>
+          <li>Numeric - int, float, complex</li>
+          <li>String - str</li>
+          <li>Sequence - list, tuple, range</li>
+          <li>Binary - bytes, bytearray, memoryview</li>
+          <li>Mapping - dict</li>
+          <li>Boolean - bool</li>
+          <li>Set - set, frozenset</li>
+          <li>None - NoneType</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="main-section" id="Functions">
+      <header class="nav-header">Functions</header>
+      <article>
+        <p>A function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and a high degree of code reusing.
+
+        <p>As you already know, Python gives you many built-in functions like print(), etc. but you can also create your own functions. These functions are called <i>user-defined functions.</i></p>
+        <code>def functionname( parameters ):
+          "function_docstring"
+          function_suite
+          return [expression]</code>
+      </article>
+    </section>
+
+    <section class="main-section" id="Reference">
+      <header class="nav-header">Reference</header>
+      <article>
+        <p>The information on this page was taken from the website <a href="https://www.tutorialspoint.com/python/python_modules.htm"><i>tutorials point</i></a></p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
