@@ -1,11 +1,17 @@
 body {
-  background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.2), rgba(136, 136, 206, 0.2) ), url(https://img3.goodfon.com/wallpaper/nbig/e/28/supernatural-intro-spn-season.jpg);
-  font-family: 'Roboto Mono', monospace;
-  color: #FFFFFF;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.2),
+      rgba(136, 136, 206, 0.2)
+    ),
+    url(https://img3.goodfon.com/wallpaper/nbig/e/28/supernatural-intro-spn-season.jpg);
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
   margin: 50px;
 }
 
-#description, h1 {
+#description,
+h1 {
   margin: 20px auto;
   text-align: center;
   font-style: italic;
@@ -17,7 +23,7 @@ form {
   min-width: 680px;
   margin: 0 auto;
   padding-bottom: 2em;
-  border-radius: 10px;  
+  border-radius: 10px;
   background-color: #121230;
 }
 
@@ -27,7 +33,12 @@ form {
   margin: 0;
 }
 
-#name-label, #email-label, #number-label, #character-label, #dropdown, #dropdown-label {
+#name-label,
+#email-label,
+#number-label,
+#character-label,
+#dropdown,
+#dropdown-label {
   text-align: justify;
 }
 
@@ -41,11 +52,12 @@ label {
   text-align: left;
 }
 
-
-input, textarea, select {
-  background-color: #0A0A23;
-  border: 1px solid #0A0A23;  
-  color: #FFFFFF;
+input,
+textarea,
+select {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
 }
 
 input[type="checkbox"] {

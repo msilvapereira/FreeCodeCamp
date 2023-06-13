@@ -1,75 +1,131 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Supernatural News!</title>
-      <link rel="stylesheet" href="styles.css">
-      <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpYJGc8qTslBrHnhleiZ5a1E7Z8Jb8iJeoYScMev64Ng&usqp=CAU&ec=48665698">
-    </head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supernatural News!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpYJGc8qTslBrHnhleiZ5a1E7Z8Jb8iJeoYScMev64Ng&usqp=CAU&ec=48665698"
+    />
+  </head>
   <body>
     <div class="header>">
       <h1 id="title">SUPERNATURAL NEWS!!</h1>
-        <p id="description">Fill out this survey to receive news about<br> the Supernatural series in your email!</p>
+      <p id="description">
+        Fill out this survey to receive news about the <br></br>Supernatural series in
+        your email!
+      </p>
     </div>
     <div class="container">
-        <form id="survey-form">
-          <div class="survey-form">
-            <label for="name" id="name-label">Name:<br></label>
-              <input id="name" name="name "type="text" placeholder="Enter your Name" required >
-          </div>
-          <div class="survey-form">
-            <label for="email" id="email-label">Email address:</label> 
-              <input id="email" name="email" type="email" placeholder="Enter your email address" required>
-          </div>
-          <div class="survey-form">
-            <label for="number" id="number-label">Age:</label>
-              <input id="number" name="number" type="number" placeholder="Age" pattern="[0-9]" min="12" max="100" required>
-          </div>
-          <div class="survey-form">
-            <label for="dropdown" id="dropdown-label">I would like to receive news about:</label>
-              <select id="dropdown" title="options">
-                <option disabled selected value>(Select one)</option>
-                <option value="1">Just about the actors</option>
-                <option value="2">Just about the series</option>
-                <option value="3">About the two options</option>
-              </select>
-          </div>
-          <div class="survey-form">
-            <p>What's your favorite character?</p>
-            <label for="character"><input type="checkbox" name="character" value="sam"> Sam</label>
-            <label for="character"><input type="checkbox" name="character" value="dean"> Dean</label>
-            <label for="character"><input type="checkbox" name="character" value="castiel"> Castiel</label>
-            <label for="character"><input type="checkbox" name="character" value="charlie"> Charlie</label>
-            <label for="character"><input type="checkbox" name="character" value="crowley"> Crowley</label>
-            <label for="character"><input type="checkbox" name="character" value="rowena"> Rowena</label>
-            <label for="character"><input type="checkbox" name="character" value="other"> Other</label>
-          </div>
-          <div class="survey-form">
-            <label>Other? Tell us who it is.<br><br>
-              <textarea name="other" id="other-character" cols="85" rows="3" placeholder="Enter your favorite character here..."></textarea>
-            </label>
-          </div>
-          <div class="survey-form">
-            <p>How often would you like to receive the news?</p>
-            <label for="news-about">
-              <input type="radio" name="news-about" value="actors">Daily
-            </label>
-          </div>
-          <div class="survey-form">
-            <label for="news-about">
-              <input type="radio" name="news-about" value="serie">Weekly</label>
-          </div>
-          <div class="survey-form">
-            <label for="news-about">
-              <input type="radio" name="news-about" value="both">Monthly</label>
-          </div>
-          <div class="survey-form">
-            <input id="submit" type="submit" value="Submit">
-          </div>
-        </form>
-      </main>
+      <form id="survey-form">
+        <div class="survey-form">
+          <label for="name" id="name-label">Name:</label>
+          <input
+            id="name"
+            name="name "
+            type="text"
+            placeholder="Enter your Name"
+            required
+          />
+        </div>
+        <div class="survey-form">
+          <label for="email" id="email-label">Email address:</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+        </div>
+        <div class="survey-form">
+          <label for="number" id="number-label">Age:</label>
+          <input
+            id="number"
+            name="number"
+            type="number"
+            placeholder="Age"
+            pattern="[0-9]"
+            min="12"
+            max="100"
+            required
+          />
+        </div>
+        <div class="survey-form">
+          <label for="dropdown" id="dropdown-label"
+            >I would like to receive news about:</label
+          >
+          <select id="dropdown" title="options">
+            <option disabled selected value>(Select one)</option>
+            <option value="1">Just about the actors</option>
+            <option value="2">Just about the series</option>
+            <option value="3">About the two options</option>
+          </select>
+        </div>
+        <div class="survey-form">
+          <p>What's your favorite character?</p>
+          <label for="character"
+            ><input type="checkbox" name="character" value="sam" /> Sam</label
+          >
+          <label for="character"
+            ><input type="checkbox" name="character" value="dean" /> Dean</label
+          >
+          <label for="character"
+            ><input type="checkbox" name="character" value="castiel" />
+            Castiel</label
+          >
+          <label for="character"
+            ><input type="checkbox" name="character" value="charlie" />
+            Charlie</label
+          >
+          <label for="character"
+            ><input type="checkbox" name="character" value="crowley" />
+            Crowley</label
+          >
+          <label for="character"
+            ><input type="checkbox" name="character" value="rowena" />
+            Rowena</label
+          >
+          <label for="character"
+            ><input type="checkbox" name="character" value="other" />
+            Other</label
+          >
+        </div>
+        <div class="survey-form">
+          <label
+            >Other? Tell us who it is.
+            <textarea
+              name="other"
+              id="other-character"
+              cols="85"
+              rows="3"
+              placeholder="Enter your favorite character here..."
+            ></textarea>
+          </label>
+        </div>
+        <div class="survey-form">
+          <p>How often would you like to receive the news?</p>
+          <label for="news-about">
+            <input type="radio" name="news-about" value="actors" />Daily
+          </label>
+        </div>
+        <div class="survey-form">
+          <label for="news-about">
+            <input type="radio" name="news-about" value="serie" />Weekly</label
+          >
+        </div>
+        <div class="survey-form">
+          <label for="news-about">
+            <input type="radio" name="news-about" value="both" />Monthly</label
+          >
+        </div>
+        <div class="survey-form">
+          <input id="submit" type="submit" value="Submit" />
+        </div>
+      </form>
     </div>
   </body>
 </html>

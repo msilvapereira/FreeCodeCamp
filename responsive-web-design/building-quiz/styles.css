@@ -36,7 +36,7 @@ h1 {
   text-align: center;
 }
 
-main  {
+main {
   padding-top: 50px;
 }
 
@@ -80,7 +80,8 @@ li > a {
   text-decoration: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: Verdana, Tahoma;
 }
 
@@ -103,7 +104,8 @@ input {
   font-size: 16px;
 }
 
-.info > label, .info > input {
+.info > label,
+.info > input {
   display: inline-block;
   text-align: right;
 }
@@ -157,13 +159,14 @@ button {
 }
 
 footer {
-  background: #2A2A40;
+  background: #2a2a40;
   justify-content: center;
   display: flex;
 }
 
-footer, footer a {
-  color: #DFDFE2;
+footer,
+footer a {
+  color: #dfdfe2;
 }
 
 address {
@@ -182,4 +185,3 @@ address {
   white-space: nowrap;
   border: 0;
 }
-

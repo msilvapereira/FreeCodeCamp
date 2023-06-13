@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&family=Wix+Madefor+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&family=Wix+Madefor+Display&display=swap");
 
 body {
-  font-family: 'Wix Madefor Display', sans-serif;
+  font-family: "Wix Madefor Display", sans-serif;
   font-size: 20px;
   text-align: center;
   display: block;
@@ -22,7 +22,7 @@ img {
 }
 
 #main {
-  background-color: #DFE9F5;
+  background-color: #dfe9f5;
   padding: 5px;
 }
 
@@ -34,7 +34,6 @@ figcaption {
 
 section {
   display: block;
-
 }
 
 h3 {
